@@ -1,0 +1,42 @@
+<!doctype html> <!-- memb5.html -->
+<html><head><meta charset="utf-8"/>
+<style>
+* {padding:0; margin:0;}
+#section0 {width:331px; height:130px;
+border:solid 1px black; margin:10px; padding:10px; border-radius:2em; box-shadow:9px
+6px 6px gray;}
+ul{list-style:none;}
+ul.level_1 > li {display:inline-block;}
+.level_1 span {display:inline-block; width:50px;}
+.level_1 input {width:100px;} 
+.level_1 input[type="checkbox"] {width:20px;}
+.level_1 input[type="reset"] {width:85px;height:25px;}
+.level_1 button { margin-left:7px; width:85px; height:25px;}
+</style><title>회원가입실습</title>
+<body>
+<section id="section0"><h4>
+Membership
+</h4>
+<form action="http://hive.dju.ac.kr/~drkdhong/html5/memb5.jsp"method="post">
+ <ul class="level_1">
+ <li><span>ID</span></li><li><input type="text" name="namex"></li><li><button>
+ repeatness
+ </button></li>
+ </ul>
+ <ul class="level_1">
+ <li><span>PW</span></li><li><input type="password" name="passx"></li>
+ </ul>
+ <ul class="level_1">
+ <li><span>hobby</span></li><li><input type="checkbox" name="hobby" value="fishing">fish</li>
+<li><input type="checkbox" name="hobby" value="Music lisning">Music lisning</li>
+<li><input type="checkbox" name="hobby" value="Movie enjoy">Movie enjoy</li>
+ </ul>
+ <ul class="level_1">
+ <li><button>
+ membership
+ </button></li>
+ <li><input type="reset" value="reset"></li>
+ </ul>
+</section>
+</body>
+</html>
